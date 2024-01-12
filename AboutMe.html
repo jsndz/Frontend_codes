@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            
+            color: black;
+        }
+        h1 {
+            color: black;
+        }
+        p {
+            color: black;
+        }
+        ul {
+            color: black;
+        }
+        a {
+            color: black;
+        }
+    </style>
+  </head>
+  <body>
+    <center><h1>About Me</h1></center>
+    <p>
+      Hello there! I'm Jaison, and I'm thrilled to welcome you to my little
+      corner of the internet. Here's a bit about me and what makes me tick.
+    </p>
+    <p>
+      I'm a software engineer with a passion for building things. I've been
+      programming since I was 12 years old, and I've been building websites
+      since I was 14. I'm currently a senior at the University of Texas at
+      Dallas, where I'm pursuing a Bachelor of Science in Computer Science.
+    </p>
+    <h4>My favorite Languages are</h4>
+    <ul>
+      <li>HTML</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>C</li>
+    </ul>
+    <h4><a href="google.com/">Contact me:</a></h4>
+  </body>
+  <script>
+    const htmlBody = document.querySelector("body");
+    const colorChange = () => {
+      const colors = ["red", "green", "blue", "yellow"];
+      const color = Math.floor(Math.random() * colors.length);
+      randomColor = colors[color];
+      htmlBody.style.backgroundColor = randomColor;
+      console.log("clicked");
+    };
+
+    htmlBody.onclick = colorChange;
+  </script>
+</html>
