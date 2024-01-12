@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>welcome to my website</h1>
+    <button id ="btn1" onclick="addPara()">Click me</button>
+</body>
+<script>
+    const btn = document.getElementById('btn');
+    function addPara(){
+        const randomNumber = Math.floor(Math.random() * 100);
+        const pContent = "the Random number is "+ randomNumber;
+        const newElement = document.createElement('p');
+        newElement.textContent = pContent;
+        document.body.appendChild(newElement);
+    }
+
+    
+    </script>
+</html>

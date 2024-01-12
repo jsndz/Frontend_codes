@@ -4,22 +4,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        body {
-            
-            color: black;
-        }
-        h1 {
-            color: black;
-        }
-        p {
-            color: black;
-        }
-        ul {
-            color: black;
-        }
-        a {
-            color: black;
-        }
+      body {
+        color: black;
+        background-color: blueviolet;
+      }
+      h1 {
+        color: black;
+      }
+      p {
+        color: black;
+      }
+      ul {
+        color: black;
+      }
+      a {
+        color: black;
+      }
     </style>
   </head>
   <body>
@@ -41,18 +41,6 @@
       <li>Java</li>
       <li>C</li>
     </ul>
-    <h4><a href="google.com/">Contact me:</a></h4>
+    <h4><a href="google.com/">Contact me</a></h4>
   </body>
-  <script>
-    const htmlBody = document.querySelector("body");
-    const colorChange = () => {
-      const colors = ["red", "green", "blue", "yellow"];
-      const color = Math.floor(Math.random() * colors.length);
-      randomColor = colors[color];
-      htmlBody.style.backgroundColor = randomColor;
-      console.log("clicked");
-    };
-
-    htmlBody.onclick = colorChange;
-  </script>
 </html>
