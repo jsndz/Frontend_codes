@@ -1,0 +1,24 @@
+*{
+    font-size: 1.5rem;
+}
+
+.columns{
+    column-count: 4;
+    column-width: 250px;
+    column-rule: 5px solid #00ffe5;
+    column-gap: 3rem;
+}
+.columns p{
+    margin-top: 0px;
+}
+
+.columns .quote{
+    column-span: all;
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #00ffe5;
+}
+.columns .nowrap{
+    white-space: nowrap;
+}
