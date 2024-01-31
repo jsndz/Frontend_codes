@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+}
+img {
+  display: block;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  border: 2px solid #890082;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(181, 100%, 84%, 0.6);
+}
+.offscreen {
+  position: absolute;
+  left: -100000px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+.profic img {
+  border-radius: 50%;
+  border: 2px solid #890082;
+  margin: 0 20px;
+}
+
+.clip {
+  line-height: 0.8;
+  margin: 0 20px;
+  font-size: 18rem;
+  height: 100%;
+  text-align: center;
+  background-image: url(/images/scenic-2200x1331.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
