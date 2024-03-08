@@ -1,5 +1,5 @@
 import React from "react";
-import Starter from "./TUT/04-other-inputs";
+import Starter from "./TUT/ContextApi/propdrilling/Navbar";
 import List from "./component/List";
 function App() {
   return (
@@ -9,5 +9,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
